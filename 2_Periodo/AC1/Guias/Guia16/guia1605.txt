@@ -1,0 +1,50 @@
+// 854155 - FELIPE COSTA UNSONST
+
+
+F_BCD_TO_HEX:
+    MOV A, M  
+    MOV B, A  
+    MVI C, 0Ah 
+
+    ANI 0F0h   
+    MOV D, A   
+
+    MOV A, B   
+    ANI 0Fh    
+    MOV E, A   
+
+    MVI H, 00  
+    MVI L, 00 
+    MOV A, D   
+    CALL F_MUL 
+
+    MOV A, L   
+    ADD E      
+    MOV L, A   
+    MOV A, H   
+    MOV H, A  
+
+    RET
+
+F_MUL:
+    MVI D, 00 
+    MOV B, A  
+MUL_LOOP:
+    ADD B   
+    MOV D, A   
+    MOV A, B 
+    CALL F_ADD 
+    JNZ MUL_LOOP
+    RET
+
+MAIN:
+    LXI H, 0050h
+    MOV A, M    
+    CALL F_BCD_TO_HEX 
+    STA 0052     
+    HLT         
+
+END
+dado1: 24h  
+dado2: 00h  
+dado3: 00h 

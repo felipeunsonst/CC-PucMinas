@@ -1,0 +1,37 @@
+//Felipe Costa Unsonst
+//854155
+
+Questão 01: determinar os complementos para os valores e as quantidades de bits indicadas: 
+a-C1,6 (1011 2) =  110100 
+b-C1,6(1100 2 ) =  11110011 
+c-C2,6(100011 2) = 011101 
+d-C2,7(101001 2) = 1010111 
+e-C2,8(111010 2) = 11000110
+
+Questão 02: determinar os complementos para os valores e as quantidades indicadas:
+a: C1,6(123 4) = 100100 
+b: C1,8(C4 16) = 00111011 
+c: C2,6(312 4) = 001010 
+d: C2,10(153 8) = 110010101 
+e: C2,8(7D 16) = 10000011
+
+Questão 03a: Determinar os valores positivos equivalentes aos complementos de dois indicados
+a: 1 0101 2 = 11 10 
+b: 1 10101 2 = 11 10 
+c: 1 00110 2 = 011011 2 
+d: 1 010111 2 = 0101001 2 
+e: 1 110101 2 = 11 16 
+
+Questão 04a: Fazer as operações indicadas mediante uso de complemento de dois: 
+a: 11101 2 – 11 01 2 = 11101 + 110000 = 00000 = 0 2  
+b: 101,1001 2 – 10,01 2 = 101,1001  + 01,1100 = 111,0101 2 
+c: 321 4 – 213 4 = 110101 2 – 100111 2 = 110101 + 011001 = 1001110 2 = 103 4 
+d: 354 8 – 265 8 = 01110110 2 – 010110101 2 = 011101100 2 + 101001011 2 = 100110111 2= 467 8 
+e: 6A2 16 – C14 16 = 011010100010 2 – 110000010100 2 = 011010100010 2 + 001111101100 2 = 101010001110 2= A8E 16
+
+Questão 05: armazenar seus dados e resultados em registradores de 8 bits, usar complemento de 2 nas subtrações, e mostrar os valores resultantes em binário: 
+a: 110110 2 – 1101 2 = 110110 + 110011 = 1011001 2 
+b: 101,1011 2 – 3,4 8 = 65,640625 10 – 3,5 10  =  62,140625 10 = 76,11 8 
+c: 231 4 – 3A 16 = 45 10 – 58 10 = -13 10 = -D 16 
+d: D3 16 – 1011101 2 = 211 10 - 93 10  = 118 10 = 76 16 
+e: 5E 16 – 3DC 16 = 94 10 – 60 10 = 34 10 = 22 16 

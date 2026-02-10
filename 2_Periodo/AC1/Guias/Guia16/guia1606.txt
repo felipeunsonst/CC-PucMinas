@@ -1,0 +1,26 @@
+// 854155 - FELIPE COSTA UNSONST
+
+F_SQR:
+    MVI D, 00  
+    MOV B, C   
+    MOV A, B  
+
+SQR_LOOP:
+    ADD D     
+    MOV D, A  
+    MOV A, B  
+    DEC A     
+    JNZ SQR_LOOP
+
+    STA 0052  
+    RET        
+
+MAIN:
+    LXI H, 0050h
+    MOV A, M    
+    CALL F_SQR   
+    HLT        
+
+END
+dado1: 05h 
+dado3: 00h  

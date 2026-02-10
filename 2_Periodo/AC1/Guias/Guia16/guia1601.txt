@@ -1,0 +1,28 @@
+// 854155 - FELIPE COSTA UNSONST
+
+F_IMUL:
+    MVI D,00  
+    MVI E,00  
+    
+    MOV B, C   
+    MOV A, B  
+    
+    MOV B, C   
+    MOV C, B   
+    
+    MVI A,00   
+    MOV D, A
+    MOV E, A
+
+IMUL_LOOP:
+    MOV A, B  
+    ADD A, D   
+    MOV D, A   
+    MOV A, E   
+    MOV B, A
+    CALL F_ADD 
+
+    RET
+    dado1: 10
+    dado2: 02
+    dado3: 00

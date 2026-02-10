@@ -1,0 +1,139 @@
+Guia01
+Felipe Costa Unsonst
+854155
+
+Questão 01: "conversão de decimal para binário"
+a)27
+  27/2 = 13, resto 1
+  13/2 = 6, resto 1
+  6/2 = 3, resto 0 
+  3/2 = 1, resto 1
+  logo, o resultado em binário é 11011
+
+b)51
+  51/2 = 25, resto 1
+  25/2 = 12, resto 1
+  12/2 = 6, resto 0
+  6/2 = 3, resto 0
+  3/2 = 1, resto 1
+  logo o resultado em binário é 110011
+
+c)725
+  725/2 = 362, resto 1
+  362/2 = 181, resto 0
+  181/2 = 90, resto 1
+  90/2 = 45, resto 0
+  45/2 = 22, resto 1
+  22/2 = 11, resto 0
+  11/2 = 5, resto 1
+  5/2 = 2, resto 1
+  2/2 = 1, resto 0
+  logo, o resultado em binário é 1011010101
+
+d)132
+  132/2 = 66, resto 0
+  66/2 = 33, resto 0
+  33/2 = 16, resto 1
+  16/2 = 8, resto 0
+  8/2 = 4, resto 0
+  4/2 = 2, resto 0
+  2/2 = 1, resto 0
+  logo, o resultado em binário é 10000100
+
+e)360
+  360/2 = 180, resto 0
+  180/2 = 90, resto 0
+  90/2 = 45, resto 0
+  45/2 = 22, resto 1
+  22/2 = 11, resto 0
+  11/2 = 5, resto 1
+  5/2 = 2, resto 1
+  2/2 = 1, resto 0
+  logo, o resultado em binário é 101101000
+
+Questão 02: " conversões de binário para decimal"
+
+a)10011
+  1x2^4 + 0x2^3 + 0x2^2 + 1x2^1 + 1x2^0 =19
+
+b)10101
+  1x2^4 + 0x2^3 + 1x2^2 + 0x2^1 + 1x2^0 =21
+
+c)10110 
+  1x2^4 + 0x2^3 + 1x2^2 + 1x2^1 + 0x2^0 =22
+
+d)110010
+  1x2^5 + 1x2^4 + 0x2^3 + 0x2^2 + 1x2^1 + 0x2^0 =50
+
+e)111011
+  1x2^5 + 1x2^4 + 1x2^3 + 0x2^2 + 1x2^1 + 1x2^0 =59
+
+Questão 03: "conversão de decimal na base indicada"
+
+a)54 para quaternário
+  54/4 = 13, resto 2
+  13/4 = 3, resto 1
+  logo, o resultado em quaternário é 312
+
+b)67 para octal
+  67/8 = 8, resto 3
+  8/8 = 1, resto 0
+  logo, o resultado em octal é 103
+
+c)76 para hexadecimal
+  76/16 = 4, resto 12
+  logo, o resultado em hexadecimal é 4C
+
+d)157 para hexadecimal
+  157/16 = 9, resto 13
+  logo, o resultado em hexadecimal é 9D
+
+e)731 para hexadecimal
+  731/16 = 45, resto 11
+  45/16 = 2, resto 13
+  logo, o resultado em hexadecimal é 2DB
+
+Questão 04: " conversões de base entre as bases indicadas por agrupamento"
+
+a)10110 para quaternário 
+  10 11 0
+  230
+
+b)11011 para octal
+  011 11
+  33
+
+c)100100 para hexadecimal 
+  0001 0010
+  12
+
+d)101011
+  101 011
+  53
+
+e)101100
+  10 11 00
+  230
+
+Questão 05: "converter entre símbolos e códigos de representação alfanumérico (ASCII):"
+
+a)Puc-Minas para hexadecimal
+  P=50 U=55 C=43 -=2D M=4D  i=69 n=6E a=61 s=73
+  50 55 43 2D 4D 69 6E 61 73
+  
+b)2025-01 para hexadecimal
+  2=32 0=30 2=32 5=35 -=2D 0=30 1=31
+  32 30 32 35 2D 30 31
+
+c)Belo Horizonte - M.G para binário
+  B=01000010 e=01100101 l=01101100 o=01101111 (espaço)=00100000 H=01001000 o=01101111 r=01110010 i=01101001 z=01111010 o=01101111 n=01101110 t=01110100 e=01100101
+  (espaço)=00100000 -=00101101 (espaço)=00100000 M=01001101 .=00101110 G=01000111 .=00101110
+
+d)156 157 151 164 145 para octal
+  156=n 111=o 105=i 116=t 145=e
+  noite
+
+e)4D 61 6E 68 61 para hexadecimal
+  4D = M 61=a 6E=n 68=h 61=a
+  manha
+   

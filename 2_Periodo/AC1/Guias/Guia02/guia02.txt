@@ -1,0 +1,81 @@
+Guia02
+Felipe Costa Unsonst
+854155
+
+Questão 01: "binário para decimal"
+quando há numeros apos a vírgula seus expoentes serão negativos
+a)0,00101
+  0x2^0 + 0x2^-1 + 0x2^-2 + 1x2^-3 + 0x2^-4 + 0x2^-5 =0,15625
+
+b)0,01101
+  0x2^0 + 0x2^-1 + 1x2^-2 + 1x2^-3 + 0x2^-4 + 1x2^-5 =0,40625
+
+c)0,10001
+  0x2^0 + 1x2^-1 + 0x2^-2 + 0x2^-3 + 0x2^-4 + 1x2^-5 =0,53125
+
+d)1,10111
+  1x2^0 + 1x2^-1 + 0x2^-2 + 1x2^-3 + 1x2^-4 + 1x2^-5 =1,71875
+
+e)11,11101
+  1x2^1 + 1x2^0 + 1x2^-1 + 1x2^-2 + 1x2^-3 + 0x2^-4 + 1x2^-5 =3,90625
+
+Questão 02: " decimal para binario"
+as partes após a virgula devem ser multiplicadas por 2
+
+a)0,625000 = 0.101
+
+b)1.750000 = 1.11
+
+c)3,125000 = 11.001
+
+d)4,312500 = 100.0101
+
+e)7,875000 = 111.111
+
+Questão 03: "conversão de binario para base indicada"
+
+a)0,011010 para quaternário
+  01 10 10 = 122
+
+b)0,100011 para octal
+ 100 011 = 43
+
+c)0,100101 para hexadecimal
+  0010 0101 = 0,94
+
+d)1,111001 para octal
+  111 001 = 171 
+
+e) 1011,1101 para hexadecimal
+  1011 1101 = BD
+
+Questão 04: " conversões de base entre as bases indicadas"
+
+a)0,231(4) para binario  
+  2 3 1 = 10 11 01 = 101101
+
+b)0,5C2(16) para quaternario 
+  0101 1100 0010 -- 01 01 11 00 00 10 = 113002
+
+c)0,735(8) para binario 
+  111 011 101
+  111011101
+
+d)6,2345(8) para quaternario
+  12,103211
+
+e)B,A5E(16) para quaternario
+  23,2212
+
+Questão 05: "realizar operações:"
+
+a)101,01(2)  + 10,011(2)= 111,101
+  
+b)1000,001(2)  - 10,01(2) = 10,001  
+
+c) 101,110(2)  * 10,001(2) = 1100,00111
+
+d)10110,01(2)  / 11,011(2) = 110,10011
+  
+e)1101101(2)  % 1011(2) = 1010
+   

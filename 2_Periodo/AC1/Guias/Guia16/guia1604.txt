@@ -1,0 +1,31 @@
+// 854155 - FELIPE COSTA UNSONST
+
+F_MAIOR:
+    MVI D,00 
+    MOV A, M  
+    MOV D, A  
+    
+LOOP_MAIOR:
+    INX H     
+    MOV A, M 
+    CMP D   
+    JC PROXIMO
+    MOV D, A 
+PROXIMO:
+    INX H
+    MOV A, M
+    JZ FIM_LOOP
+    JMP LOOP_MAIOR
+
+FIM_LOOP:
+    STA 0052 
+    RET
+
+MAIN:
+    LXI H, 0050h 
+    CALL F_MAIOR 
+    HLT
+END
+arranjo:
+    DB 05h, 02h, 0Fh, 08h, 03h
+dado3: 00h 

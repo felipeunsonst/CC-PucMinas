@@ -1,0 +1,91 @@
+services:
+  postgres:
+    image: postgres:15
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=cinematch
+      - POSTGRES_PASSWORD=cinematch
+      - POSTGRES_DB=cinematch
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./database/scripts/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - dev-network
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U cinematch" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    image: maven:3.8.8-eclipse-temurin-17
+    working_dir: /app
+    command: mvn compile exec:java -Dexec.mainClass=app.Application
+    ports:
+      - "6789:6789"
+    volumes:
+      - ./backend:/app
+    environment:
+      - ENV=dev
+      - PORT=6789
+      - DB_HOST=your_db_host_here
+      - DB_NAME=your_db_name_here
+      - DB_PORT=5432
+      - DB_USER=your_db_user_here
+      - DB_PASSWORD=your_db_password_here
+      - JWT_SECRET=your_jwt_secret_here
+      - TMDB_API_KEY=your_tmdb_api_key_here
+      - AZURE_OPENAI_ENDPOINT=your_azure_openai_endpoint_here
+      - AZURE_OPENAI_API_KEY=your_azure_openai_api_key_here
+      - AZURE_OPENAI_DEPLOYMENT_NAME=your_azure_openai_deployment_name_here
+    networks:
+      - dev-network
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  frontend:
+    image: node:20-alpine
+    working_dir: /app
+    command: sh -c "npm install && npm run dev"
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:6789
+      - NODE_ENV=development
+    depends_on:
+      - backend
+    networks:
+      - dev-network
+
+  ai:
+    build:
+      context: ./ai
+    ports:
+      - "5005:5005"
+    volumes:
+      - ./ai:/app
+      - ai-model-data:/app/model_data
+    environment:
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_NAME=cinematch
+      - DB_USER=cinematch
+      - DB_PASSWORD=cinematch
+    networks:
+      - dev-network
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+networks:
+  dev-network:
+
+volumes:
+  postgres-data:
+  ai-model-data:

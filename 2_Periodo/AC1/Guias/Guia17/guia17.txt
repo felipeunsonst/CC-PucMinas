@@ -1,0 +1,12 @@
+//FELIPE COSTA UNSONST - 854155
+
+m	atual	  próximo	D	SR	JK	T
+	t a b c	  t+1 a b	Da	Db	SaRa	SbRb
+0	0 0 0	  0 0		0	0	0x	0x
+1	0 0 1	  0 1		0	1	0x	10
+2	0 1 0	  0 1		0	1	0x	x0
+3	0 1 1	  1 1		1	1	10	x0
+4	1 0 0	  1 0		1	0	x0	0x
+5	1 0 1	  0 0		0	0	01	0x
+6	1 1 0	  1 1		1	1	x0	x0
+7	1 1 1	  1 0		1	0	x0	01

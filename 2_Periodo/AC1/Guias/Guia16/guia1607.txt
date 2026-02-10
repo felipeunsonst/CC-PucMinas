@@ -1,0 +1,28 @@
+// 854155 - FELIPE COSTA UNSONST
+
+
+F_FAT:
+    MVI D, 01  
+    MOV B, C   
+    
+FAT_LOOP:
+    MOV A, B   
+    CALL F_MULT 
+    MOV D, A  
+    DEC B     
+    JNZ FAT_LOOP 
+    
+    RET
+
+F_MULT:
+    MVI H, 00  
+    MVI L, 00  
+    MOV A, D   
+    MOV B, A   
+    MOV A, C   
+    
+MULT_LOOP:
+    ADD L      
+    MOV L, A 
+    MOV A, B   
+    MOV C, A  

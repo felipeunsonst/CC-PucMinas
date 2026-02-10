@@ -1,0 +1,31 @@
+// 854155 - FELIPE COSTA UNSONST
+
+
+F_IDIV:
+    MVI D, 00    
+    MOV B, C     
+    MOV A, M     
+    
+IDIV_LOOP:
+    CMP B        
+    JC DIV_DONE  
+    SUB B        
+    INX D        
+    JMP IDIV_LOOP 
+    
+DIV_DONE:
+    MOV M, D     
+    RET          
+
+MAIN:
+    LXI H, 0050h 
+    MOV A, M   
+    INX H       
+    MOV C, M    
+    CALL F_IDIV 
+    HLT          
+
+END
+dado1: 0Ah  
+dado2: 02h 
+dado3: 00h 

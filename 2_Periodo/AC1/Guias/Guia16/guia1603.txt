@@ -1,0 +1,29 @@
+//854155 - FELIPE COSTA UNSONST
+
+F_IMOD:
+    MVI D,00   
+    MOV A, C   
+    MOV B, M   
+    
+IMOD_LOOP:
+    SUB B      
+    JZ IMOD_DONE
+    MOV A, D   
+    CALL F_IMOD
+
+IMOD_DONE:
+    MOV D, A 
+    RET
+
+MAIN:
+    LXI H, 0050h
+    MOV A, M  
+    INX H
+    MOV C, M 
+    CALL F_IMOD 
+    STA 0052  
+    HLT
+END
+dado1: 15h  ; dividendo
+dado2: 04h  ; divisor
+dado3: 00h  ; resultado (resto)

@@ -1,0 +1,98 @@
+//FELIPE COSTA UNSONST 
+//854155
+
+01.) Montar as expressões por mintermos dos flip-flops
+---------------------------------------
+a.)
+SoP(Da) = m(1,4,5,6)
+SoP(Db) = m(2,5,6,7)
+
+b.)
+SoP(Ja) = m(1,4,5,6,7)
+SoP(Jb) = m(2,3,6,7)
+
+SoP(Ka) = m(4,5,6,7)
+SoP(Kb) = m(2,5,6,7)
+
+c.)
+SoP(Ta) = m(1,4,5,6,7)
+SoP(Tb) = m(2,5,6,7)
+
+=======================================
+02.) Montar as expressões compactas por MAXTERMOS dos flip-flops
+---------------------------------------
+a.)
+PoS(Da) = M(0,2,3,7)
+PoS(Db) = M(0,1,3,4)
+
+b.)
+PoS(Ja) = M(0,2,3)
+PoS(Jb) = M(0,1,4,5)
+
+PoS(Ka) = M(0,1,2,3)
+PoS(Kb) = M(0,1,3,4)
+
+c.)
+PoS(Ta) = M(0,2,3)
+PoS(Tb) = M(0,1,3,4)
+
+=======================================
+03.) Mapas de Karnaugh (simplificação SoP)
+
+a.) Da
+ab\c | 0 | 1
+-------------
+ 00  | 0 | 0
+ 01  | 1 | 0
+ 11  | 1 | 1
+ 10  | 1 | 1
+Simplificado: Da = a
+
+b.) Ta
+ab\c | 0 | 1
+-------------
+ 00  | 0 | 0
+ 01  | 1 | 0
+ 11  | 1 | 1
+ 10  | 1 | 1
+Simplificado: Ta = a
+
+c.) Sb (=Db)
+ab\c | 0 | 1
+-------------
+ 00  | 0 | 0
+ 01  | 1 | 1
+ 11  | 1 | 1
+ 10  | 0 | 1
+Simplificado: Sb = b + ac
+
+d.) Rb (=Db')
+ab\c | 0 | 1
+-------------
+ 00  | 1 | 1
+ 01  | 0 | 0
+ 11  | 0 | 0
+ 10  | 1 | 0
+Simplificado: Rb = b'c' + a'b
+
+e.) Jb
+ab\c | 0 | 1
+-------------
+ 00  | 0 | 0
+ 01  | 1 | 1
+ 11  | 1 | 1
+ 10  | 0 | 1
+Simplificado: Jb = b + ac
+
+f.) Kb
+ab\c | 0 | 1
+-------------
+ 00  | 0 | 0
+ 01  | 1 | 1
+ 11  | 1 | 1
+ 10  | 0 | 1
+Simplificado: Kb = b + ac
+
+g.) Tb
+Mesmo que Jb e Kb
+Simplificado: Tb = b + ac
