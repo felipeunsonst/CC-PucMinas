@@ -1,0 +1,30 @@
+Tema: Planejamento de Capacidade - Definindo SLAs para Infra-estrutura nas nuvens.
+
+Contexto: Considere que é necessário negociar com a nuvem os melhores SLAs (Tempo de resposta, Taxa de processamento e Disponibilidade de serviços) para atender requisitos de desempenho, orçamento disponível, e de qualidade (Utilidade) do serviço para uma empresa.
+
+ 
+
+Para isso:
+
+Propor e contextualizar uma empresa fictícia que opte pelo serviço em cloud.
+Determinar os SLAs (tempo de resposta, taxa de processamento e disponibilidade) adequados para o tipo de serviço que será oferecido ao ambiente de usuários da empresa. Justifique essas escolhas.
+Estimar valores de mercado aplicados pela cloud para os custos por requisição.
+Considere recursos financeiros restritos de R$ 20.000,00 por mês.
+Dentro desses cenários vocês podem escolher:
+
+Priorizar o tempo de resposta, ou taxa de processamento, ou a disponibilidade, ou combinação destes. A decisão é do grupo, porém de forma justificada.
+ 
+
+Vocês deverão realizar simulações e encontrar os melhores SLAs que favoreçam a melhor qualidade (Utilidade) do serviço a ser contratado com o melhor custo possível. Note que, para atender aos requisitos, pode ser necessário pagar mais por cada requisição esperada.
+
+Preparar um relatório de no máximo 3 folhas que analise os achados.
+
+ 
+
+Data de entrega: 27/5
+
+Grupo: até 4 alunos
+
+Pontuação: 10 pts.
+
+Tipo de entrega: Impresso. - SOMENTE ENTREGAR UM TRABALHO POR GRUPO

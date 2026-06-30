@@ -1,0 +1,40 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: Guará
+authors:
+  - family-names: Matos Marques
+    given-names: Daniel
+  - family-names: Manoel Bernardes
+    given-names: Davi
+  - family-names: Costa Unsonst
+    given-names: Felipe
+  - family-names: Quites Lopes
+    given-names: Felipe
+  - family-names: Campos Soares
+    given-names: Nayron
+  - family-names: Monteiro Martinelli Grataroli
+    given-names: Victor
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Neves Rodrigues
+    given-names: Cristiano
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Amy Saldanha Rivero
+    given-names: Ilo
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Ramos Costa
+    given-names: Pedro Henrique
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Ribeiro da Mota
+    given-names: Rosilane
+keywords:
+  - Application
+  - Safety
+  - AI
+repository-code: 
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2022-07-14
