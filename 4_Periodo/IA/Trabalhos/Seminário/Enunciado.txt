@@ -1,0 +1,8 @@
+Os temas foram definidos no forum do canvas, e escolhemos "Modelos GPT – Vantagens, Limitações e Considerações Éticas"
+
+De acordo com o enunciado da atividade, cada grupo deverá entregar uma apresentação sobre o seu respectivo tema em formato PDF contendo:
+
+Introdução: O que é a técnica/tema e qual problema ela resolve?
+Funcionamento: Explicação simplificada do algoritmo ou dos pilares do conceito.
+Impacto: Por que este tema é relevante no cenário atual da IA?
+Aplicações práticas: uma aplicação simples, exemplo prático ou caso de uso
