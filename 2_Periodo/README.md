@@ -1,11 +1,12 @@
-# 2º Período
+## 📚 Disciplinas Cursadas
 
-## Disciplinas cursadas
-- Algoritmos e Estrutura de Dados 2 (AEDS2)
-- Arquitetura de Computadores 1 (AC1)
-- Engenharia de Software 1
-- Cultura Religiosa: Fenômeno Religioso
-- Trabalho Interdisciplinar II (TI2)
-- Optativa: INtrodução aos Sistemas Inteligentes
+| Disciplina | Sigla |
+|------------|:-----:|
+| Algoritmo e Estrutura de Dados II | **AEDS2** |
+| Arquitetura de Computadores I | **AC1** |
+| Engenharia de Software 1 | **EG1** |
+| Cultura Religiosa: Fenômeno Religioso | |
+| Trabalho Interdisciplinar II | **TI2** |
+| Optativa: Introdução aos Sistemas Inteligentes | |
 
-Alguns materiais podem estar ausentes por perda de arquivos antigos.
+> **Observação:** Alguns materiais podem estar ausentes devido à perda de arquivos antigos.

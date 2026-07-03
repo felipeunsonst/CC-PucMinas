@@ -1,0 +1,16 @@
+O objetivo desta tarefa é que você analise um artigo científico em inglês relacionado à disciplina. Há inúmeros artigos que trabalham com temas relacionados aos algoritmos de AEDs III. Seu primeiro desafio é escolher um deles. Lembre-se de que ele deve ser em inglês mesmo. Você pode procurar por um artigo em uma base de dados científica, como o Google AcadêmicoLinks to an external site. ou escolher um dos artigos abaixo que eu já pré-selecionei:
+
+A Composite Boyer-Moore Algorithm for the String Matching Problem.pdfDownload A Composite Boyer-Moore Algorithm for the String Matching Problem.pdf
+A Practical Scalable Distributed B-Tree.pdfDownload A Practical Scalable Distributed B-Tree.pdf
+Bigtable - A Distributed Storage System for Structured Data.pdfDownload Bigtable - A Distributed Storage System for Structured Data.pdf
+Efficient randomized pattern-matching algorithms.pdfDownload Efficient randomized pattern-matching algorithms.pdf
+Extendible Hashing for Concurrent Operations and Distributed Data.pdfDownload Extendible Hashing for Concurrent Operations and Distributed Data.pdf
+Hybrid pattern-matching algorithm based on BM-KMP algorithm.pdfDownload Hybrid pattern-matching algorithm based on BM-KMP algorithm.pdf
+Lossless Compression Based Kmp Technique.pdfDownload Lossless Compression Based Kmp Technique.pdf
+Pattern Matching Algorithms for Intrusion Detection and Prevention System.pdfDownload Pattern Matching Algorithms for Intrusion Detection and Prevention System.pdf
+Em seguida, você deve fazer uma pequena resenha desse artigo. Sua resenha deve conter:
+
+Identificação do artigo (e o link para ele se não for um dos que eu disponibilizei).
+O problema encontrado pelos autores, que motivou a busca da pesquisa.
+Um síntese do trabalho elaborado pelos autores.
+Os principais resultados encontrados por eles
