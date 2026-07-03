@@ -1,24 +1,24 @@
-Divisão de pontos:
-- 40 Pontos de prova
-    - Duas avaliações de 20 pontos cada
-- 15 de Trabalho Prático
-- 40 de AS
-    - 10 de AS 1
-    - 10 de AS 2
-    - 10 de AS 3
-    - 10 de AS 4
-- 5 Pontos de ADA
+# 🗄️ Banco de Dados
 
-Pontos alcançados:
-- 28,5/40 de Avaliações
-    - 13,5/20 de Avaliação 1
-    - 15/20 de Avaliação 2
-- 13/20 de Trabalho Prático
-- 27,1/40 de Trabalho Prático
-    - 7/10 de AS 1
-    - 5,6/10 de AS 2
-    - 6,5/10 de AS 3
-    - 8/10 de AS 4
-- 2,5/5 de ADA
-  
-Total de pontos: 71,1/100
+![Nota](https://img.shields.io/badge/Nota-71.10%25-blue)
+![Avaliações](https://img.shields.io/badge/Avaliações-28.5%2F40-orange)
+![TP](https://img.shields.io/badge/TP-13%2F15-brightgreen)
+![AS](https://img.shields.io/badge/AS-27.1%2F40-success)
+![ADA](https://img.shields.io/badge/ADA-2.5%2F5-yellow)
+
+## Detalhamento
+
+| Item | Pontos |
+|------|-------:|
+| AV1 | 13,50 / 20 |
+| AV2 | 15,00 / 20 |
+| Trabalho Prático | 13,00 / 15 |
+| AS1 | 7,00 / 10 |
+| AS2 | 5,60 / 10 |
+| AS3 | 6,50 / 10 |
+| AS4 | 8,00 / 10 |
+| ADA | 2,50 / 5 |
+
+## Resultado Final
+
+**🏆 71,10 / 100**

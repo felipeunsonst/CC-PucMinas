@@ -1,27 +1,27 @@
-Divisão de pontos:
-- 60 Pontos de prova
-    - Tres avaliações de 20 pontos cada
-- 13 de Exercícios de fixação
-- 20 de Trabalho Prático
-    - 5 de TP 1
-    - 5 de TP 2
-    - 5 de TP 3
-    - 5 de TP 4
-- 2 de Artigo
-- 5 Pontos de ADA
+# 💻 Algoritmos e Estruturas de Dados III (AEDS III)
 
-Pontos alcançados:
-- 41,50/60 de Avaliações
-    - 11,5/20 de Avaliação 1
-    - 12/20 de Avaliação 2
-    - 18/20 de Avaliação 3
-- 10,88/15 de Exercícios de Fixação
-- 13,5/20 de Trabalho Prático
-    - 3/5 de Atividade 1
-    - 1,5/5 de Atividade 2
-    - 5/5 de Atividade 3
-    - 4/5 de Atividade 4
-- 2/2 de Artigo
-- 2,5/5 de ADA
-  
-Total de pontos: 70,38/100
+![Nota](https://img.shields.io/badge/Nota-70.38%25-blue)
+![Avaliações](https://img.shields.io/badge/Avaliações-41.5%2F60-orange)
+![Exercícios](https://img.shields.io/badge/Exercícios-10.88%2F13-success)
+![TP](https://img.shields.io/badge/TP-13.5%2F20-brightgreen)
+![Artigo](https://img.shields.io/badge/Artigo-2%2F2-blueviolet)
+![ADA](https://img.shields.io/badge/ADA-2.5%2F5-yellow)
+
+## Detalhamento
+
+| Item | Pontos |
+|------|-------:|
+| AV1 | 11,50 / 20 |
+| AV2 | 12,00 / 20 |
+| AV3 | 18,00 / 20 |
+| Exercícios de Fixação | 10,88 / 13 |
+| TP1 | 3,00 / 5 |
+| TP2 | 1,50 / 5 |
+| TP3 | 5,00 / 5 |
+| TP4 | 4,00 / 5 |
+| Artigo | 2,00 / 2 |
+| ADA | 2,50 / 5 |
+
+## Resultado Final
+
+**🏆 70,38 / 100**

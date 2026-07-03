@@ -1,22 +1,19 @@
-Divisão de pontos:
-- 60 Pontos de prova
-    - Duas avaliações de 30 pontos cada
-- 35 Pontos de Trabalho
-    - 5 Pontos de exercício 1
-    - 10 Pontos de exercício 2
-    - 20 Pontos de Seminário
-- 5 Pontos de ADA
+# 📊 Modelagem e Avaliação de Desempenho (MAD)
 
-Pontos alcançados:
-- X/60 de Avaliações
-    - 21/30 de Avaliação 1
-    - X/30 de Avaliação 2
-- 33/35 de Trabalho
-    - 5/5 de Exercício 1
-    - 10/10 de Exercício 2
-    - 18/20 de Seminário
-- 3/5 de ADA
-  
-Total de pontos: X/100
-(Importante dizer que, quando criei esse repositório, já não possuia mais acesso a nota da ultima prova, portanto, não lembro do resultado)
+![AV1](https://img.shields.io/badge/AV1-21%2F30-orange)
+![Trabalho](https://img.shields.io/badge/Trabalho-33%2F35-brightgreen)
+![ADA](https://img.shields.io/badge/ADA-3%2F5-yellow)
+![Nota](https://img.shields.io/badge/Nota-Não%20disponível-lightgrey)
 
+> **Observação:** Quando este repositório foi criado, eu já não possuía acesso ao sistema acadêmico, então não consegui recuperar a nota da segunda avaliação nem a nota final da disciplina.
+
+## Detalhamento
+
+| Item | Pontos |
+|------|-------:|
+| AV1 | 21,00 / 30 |
+| AV2 | Não registrada |
+| Exercício 1 | 5,00 / 5 |
+| Exercício 2 | 10,00 / 10 |
+| Seminário | 18,00 / 20 |
+| ADA | 3,00 / 5 |

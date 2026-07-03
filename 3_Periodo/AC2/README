@@ -1,32 +1,21 @@
-Divisão de pontos:
-- 60 Pontos de prova
-    - Duas avaliações de 30 pontos cada
-- 10 de Listas teóricas
-    - 5 de Lista 1
-    - 5 de Lista 2
-- 25 de Trabalho Prático
-    - 3 de Lista 1
-    - 3 de Lista 2
-    - 3 de Lista 3
-    - 6 de Lista 4
-    - 4 de Lista 5
-    - 6 de Lista 6
-- 5 Pontos de ADA
+# 🖥️ Arquitetura de Computadores II
 
-Pontos alcançados:
-- 28/60 de Avaliações
-    - 17,5/20 de Avaliação 1
-    - 10,5/20 de Avaliação 2
-- 10/10 de Listas
-    - 5/5 de Lista 1
-    - 5/5 de Lista 2
-- 25/25 de Trabalho Prático
-    - 3/3 de Lista 1
-    - 3/3 de Lista 2
-    - 3/3 de Lista 3
-    - 6/6 de Lista 4
-    - 4/4 de Lista 5
-    - 6/6 de Lista 6
-- 2,5/5 de ADA
-  
-Total de pontos: 65,5/100
+![Nota](https://img.shields.io/badge/Nota-65.50%25-blue)
+![Avaliações](https://img.shields.io/badge/Avaliações-28%2F60-orange)
+![Listas](https://img.shields.io/badge/Listas-10%2F10-success)
+![TP](https://img.shields.io/badge/TP-25%2F25-brightgreen)
+![ADA](https://img.shields.io/badge/ADA-2.5%2F5-yellow)
+
+## Detalhamento
+
+| Item | Pontos |
+|------|-------:|
+| AV1 | 17,50 / 30 |
+| AV2 | 10,50 / 30 |
+| Listas Teóricas | 10,00 / 10 |
+| Trabalho Prático | 25,00 / 25 |
+| ADA | 2,50 / 5 |
+
+## Resultado Final
+
+**🏆 65,50 / 100**
